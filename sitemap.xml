@@ -39,11 +39,15 @@
     <loc>https://raphaelasanti.github.io/woman-in-the-wilderness/</loc>
     <priority>0.8</priority>
   </url>
+  
 
   <!-- Personal Notes -->
   <url>
     <loc>https://raphaelasanti.github.io/perils-of-machiavellianism/index.html</loc>
     <priority>0.7</priority>
   </url>
-
+  <url>
+    <loc>https://raphaelasanti.github.io/righteousness/</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
