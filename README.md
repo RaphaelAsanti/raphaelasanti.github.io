@@ -10,10 +10,10 @@ https://raphaelasanti.github.io/
 
 ### Structural Pillars
 - **[Eye of the Needle](ca://s?q=Open_Eye_of_the_Needle_repo)** — Core narrative and metaphysical foundation.
-- **[Symbolic Cosmology](ca://s?q=Open_Symbolic_Cosmology_repo)** — Architectural framework for the symbolic system.
-- **[Circle Area Without Pi](ca://s?q=Open_Circle_Area_repo)** — Structural mathematics demonstrating method and rigor.
+- **[Circle Area Without Pi](https://github.com/RaphaelAsanti/circle-area-without-pi)** — Structural mathematics demonstrating method and rigor.
 - **[Tilt of the Earth](ca://s?q=Open_Tilt_of_the_Earth_repo)** — Bridge between physical cosmology and symbolic interpretation.
 - **[Thamud / Camel of God](ca://s?q=Open_Thamud_repo)** — Cross‑scriptural structural analysis.
+- **[Burned Bull / Elijah](ca://s?q=Open_Burned_Bull_page)** — Structural symbolism demonstrating scriptural pattern recognition.
 
 ### Reader‑Impact Works
 - **[The End of Time (eBook)](ca://s?q=Open_End_of_Time_repo)** — Comprehensive exposition of the symbolic system.
