@@ -62,4 +62,8 @@
     <loc>https://raphaelasanti.github.io/righteousness/</loc>
     <priority>0.7</priority>
   </url>
+    <url>
+    <loc>https://raphaelasanti.github.io/phoenix/</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
