@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Repository Index – Raphael E. Asanti</title>
     <meta name="description" content="A simple index of the public repositories by Raphael E. Asanti, covering mathematics, cosmology, symbolism, and personal writings.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,17 +49,63 @@
     </script>
 
     <style>
+        :root{
+          --max-width:720px;
+          --muted:#666;
+          --accent:#000;
+          --bg:#f9f9f9;
+          --border:#ccc;
+        }
+        html,body{height:100%}
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            max-width: 720px;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            max-width: var(--max-width);
             margin: 40px auto;
             padding: 0 20px;
             line-height: 1.65;
             color: #111;
+            background: #fff;
+        }
+        a{ color: var(--accent); text-decoration: underline; }
+        a:focus { outline: 3px solid #ffd54f; outline-offset: 3px; }
+        .skip-link {
+          position: absolute;
+          left: -999px;
+          top: auto;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+        }
+        .skip-link:focus {
+          left: 10px;
+          top: 10px;
+          width: auto;
+          height: auto;
+          padding: 8px 12px;
+          background: #000;
+          color: #fff;
+          z-index: 1000;
+        }
+        header.hero {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        figure.hero-figure {
+            margin: 0;
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            /* If you know the image aspect ratio, set it explicitly to prevent CLS:
+               e.g. aspect-ratio: 16/9; or add width and height attributes to the <img> */
+            aspect-ratio: 16/9;
+            object-fit: cover;
         }
         h1 {
             font-size: 2rem;
-            margin-bottom: 0.5rem;
+            margin: 1rem 0 0.25rem;
             font-weight: 600;
         }
         h2 {
@@ -68,142 +114,125 @@
             margin-bottom: 0.75rem;
             font-weight: 600;
         }
-        p, li {
-            font-size: 1rem;
-            margin-bottom: 1rem;
+        p, li { font-size: 1rem; margin-bottom: 1rem; color: #111; }
+        .container { display: block; }
+        main { margin-top: 1rem; }
+        ul { margin-left: 20px; }
+        .donate {
+            float: right;
+            width: 280px;
+            margin: 0 0 20px 20px;
+            padding: 15px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            font-size: 0.95em;
+            line-height: 1.4;
         }
-        a {
-            color: #000;
-            text-decoration: underline;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        .hero {
-            width: 100%;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .hero-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
+        .link-blurb { color: var(--muted); margin-top: -0.5rem; margin-bottom: 1rem; }
+        @media (max-width: 640px){
+            .donate { float: none; width: auto; margin-left: 0; margin-right: 0; }
         }
     </style>
 </head>
-
-
 <body>
-  <header class="hero">
-    <img src="bbwreath.jpg"
-         alt="Charcoal swing with heart-shaped baby's breath wreath"
-         class="hero-image">
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<div style="margin-top: 24px; max-width: 640px; margin-left: auto; margin-right: auto; font-family: sans-serif; color: #000;">
-  <p>This site presents structural explanations of physical, symbolic, and cosmological systems. Each page isolates one idea. As you read, you will notice a recurring pattern: <strong>many things you were taught are incorrect</strong>.</p>
+  <header class="hero" role="banner" aria-labelledby="site-title">
+    <figure class="hero-figure" aria-hidden="true">
+      <img src="bbwreath.jpg"
+           alt="Charcoal swing with heart-shaped baby's breath wreath"
+           class="hero-image">
+    </figure>
 
-  <p>Begin anywhere. If you want a starting point, the <a href="circle-area-without-pi/">circle‑area page</a> shows this most clearly.</p>
-</div>
-<hr>
-<h1>Repository Index</h1>
-<p>A simple index of my public repositories.</p>
+    <h1 id="site-title">Repository Index</h1>
+    <p>A simple index of my public repositories.</p>
+
+    <div style="max-width:640px;margin:0.5rem auto;font-family:sans-serif;color:#000;">
+      <p>This site presents structural explanations of physical, symbolic, and cosmological systems. Each page isolates one idea. As you read, you will notice a recurring pattern: <strong>many things you [...]</strong></p>
+      <p>Begin anywhere. If you want a starting point, the <a href="circle-area-without-pi/">circle‑area page</a> shows this most clearly.</p>
+    </div>
   </header>
-<div style="
-    float: right;
-    width: 280px;
-    margin: 0 0 20px 20px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    background: #f9f9f9;
-    font-size: 0.9em;
-    line-height: 1.4;
-">
-    <strong>Support the Work</strong><br><br>
 
-    We have never sent a messenger who did not eat food and walk in the marketplaces.<br><br>
+  <main id="main" class="container" role="main" aria-label="Repository index main content">
+    <aside class="donate" role="complementary" aria-label="Support the work">
+        <strong>Support the Work</strong><br><br>
+        We have never sent a messenger who did not eat food and walk in the marketplaces.<br><br>
+        <strong>My only income is voluntary donations.</strong><br><br>
+        <strong>Cash App:</strong><br>
+        <a href="https://cash.app/$phirunltd" rel="noopener">https://cash.app/$phirunltd</a><br><br>
+        <strong>Gumroad:</strong><br>
+        <a href="https://phirun4.gumroad.com/l/zsmzjh" rel="noopener">Donate via Gumroad</a><br><br>
+        <strong>Free Ebook:</strong><br>
+        <a href="https://raphaelasanti.github.io/the-end-of-time/" rel="noopener">Download on GitHub</a>
+    </aside>
 
-    <strong>My only income is voluntary donations.</strong><br><br>
+    <section aria-labelledby="ebook">
+      <h2 id="ebook">eBook</h2>
+      <ul>
+        <li><a href="the-end-of-time/"><strong>The End of Time -- </strong>Free 173 Page eBook (PDF)</a></li>
+      </ul>
+    </section>
 
-    <strong>Cash App:</strong><br>
-    <a href="https://cash.app/$phirunltd">https://cash.app/$phirunltd</a><br><br>
-
-    <strong>Gumroad:</strong><br>
-    <a href="https://phirun4.gumroad.com/l/zsmzjh">Donate via Gumroad</a><br><br>
-
-    <strong>Free Ebook:</strong><br>
-    <a href="https://raphaelasanti.github.io/the-end-of-time/">
-        Download on GitHub
-    </a>
-</div>
-
-<h2>eBook</h2>
-<ul>
-    <li><a href="the-end-of-time/"><strong>The End of Time -- </strong>Free 173 Page eBook (PDF)</a></li>
-</ul>    
-<h2>Ebook Excerpts</h2>
-<ul>
-     <li><a href="circle-area-without-pi/">How To Calculate The Area of a Circle Without Pi</a>
-       <div class="link-blurb">
-    Shows that you can measure a circle accurately without Pi — and surprise your math teacher.
-  </div></li>
-    <li><a href="tilt-of-the-earth/">Why The Earth's Axis Tilts</a>                                                                         
-        <div class="link-blurb">
-    Shows that the Earth doesn’t tilt for the reason you were taught — the real cause is much simpler and was explained thousands of years ago.
-  </div>
+    <section aria-labelledby="excerpts">
+      <h2 id="excerpts">Ebook Excerpts</h2>
+      <ul>
+        <li>
+          <a href="circle-area-without-pi/">How To Calculate The Area of a Circle Without Pi</a>
+          <div class="link-blurb">Shows that you can measure a circle accurately without Pi — and surprise your math teacher.</div>
         </li>
-    <li><a href="burned-bull-elijah/">Elijah’s Burned Bull</a>
-      <div class="link-blurb">
-    Shows that the story means far more than what people were taught — its real meaning is older, clearer, and much more direct.
-  </div>
-    </li>
-    <li><a href="woman-in-the-wilderness/">Revelation's Woman in the Wilderness</a>
-      <div class="link-blurb">
-    Shows that the “spiritual war in heaven” comes from a mistranslation — one that changes the story so neatly it’s hard to see it as an accident.
-  </div>
-    </li>
-    <li>
-  <a href="peace-in-the-middle-east/">
-    The Solution For Peace in the Middle East
-  </a>
-  <div class="link-blurb">
-    Shows that the long conflict has a simple solution embedded in the texts themselves — one that people overlooked for thousands of years.
-  </div>
-</li>
+        <li>
+          <a href="tilt-of-the-earth/">Why The Earth's Axis Tilts</a>
+          <div class="link-blurb">Shows that the Earth doesn’t tilt for the reason you were taught — the real cause is much simpler and was explained thousands of years ago.</div>
+        </li>
+        <li>
+          <a href="burned-bull-elijah/">Elijah’s Burned Bull</a>
+          <div class="link-blurb">Shows that the story means far more than what people were taught — its real meaning is older, clearer, and much more direct.</div>
+        </li>
+        <li>
+          <a href="woman-in-the-wilderness/">Revelation's Woman in the Wilderness</a>
+          <div class="link-blurb">Shows that the “spiritual war in heaven” comes from a mistranslation — one that changes the story so neatly it’s hard to see it as an accident.</div>
+        </li>
+        <li>
+          <a href="peace-in-the-middle-east/">The Solution For Peace in the Middle East</a>
+          <div class="link-blurb">Shows that the long conflict has a simple solution embedded in the texts themselves — one that people overlooked for thousands of years.</div>
+        </li>
+      </ul>
+    </section>
 
-    </li>    
-</ul>
-<h2>Personal Notes</h2>
+    <section aria-labelledby="personal-notes">
+      <h2 id="personal-notes">Personal Notes</h2>
+      <ul>
+        <li>
+          <a href="righteousness/">Unfinished Chapter on Righteousness</a>
+          <div class="link-blurb">Shows that righteousness isn’t learned from doctrine — it’s a structure you have to become, and this chapter was left unfinished for a reason.</div>
+        </li>
+        <li>
+          <a href="thamud-and-the-camel-of-god/">Thamud and the Camel of God</a>
+          <div class="link-blurb">Shows how an entire civilization was erased after defiling a gift from God — and why the lone “survivor” wasn’t a survivor at all, but a clue to their collective guilt.</div>
+        </li>
+        <li>
+          <a href="the-eye-of-the-needle/">The Eye of the Needle</a>
+          <div class="link-blurb">Shows that the “eye of the needle” is a real place people never knew about — and it was never a metaphor, because its meaning reaches into God’s own domain.</div>
+        </li>
+        <li>
+          <a href="perils-of-machiavellianism/">Essay on Machiavellianism</a>
+          <div class="link-blurb">Shows that Machiavellianism destroys trust so completely that civilizations collapse — and explains why people never saw it happening.</div>
+        </li>
+        <li>
+          <a href="rosh-hashanah-coptic-new-year/">Rosh Hashanah + Coptic New Year = Nun Shin and Tav He</a>
+          <div class="link-blurb">Notes that both days align this year — a symbolic collapse of the 1,000 year deferred gap, and a reminder that God keeps His promises.</div>
+        </li>
+        <li>
+          <a href="phoenix/">The Finality</a>
+          <div class="link-blurb">The final hub page, built on the Hol/Chol root, with elements placed intentionally for those who recognize their structure.</div>
+        </li>
+      </ul>
+    </section>
 
-    
-<ul>
-        <li><a href="righteousness/">Unfinished Chapter on Righteousness</a>
-      <div class="link-blurb">
-    Shows that righteousness isn’t learned from doctrine — it’s a structure you have to become, and this chapter was left unfinished for a reason.
-  </div></li>
-    </li>
-        <li><a href="thamud-and-the-camel-of-god/">Thamud and the Camel of God</a>
-      <div class="link-blurb">
-Shows how an entire civilization was erased after defiling a gift from God — and why the lone “survivor” wasn’t a survivor at all, but a clue to their collective guilt.  </div></li>
-    <li><a href="the-eye-of-the-needle/">The Eye of the Needle</a>
-      <div class="link-blurb">
-    Shows that the “eye of the needle” is a real place people never knew about — and it was never a metaphor, because its meaning reaches into God’s own domain.
-  </div></li>
-    <li><a href="perils-of-machiavellianism/">Essay on Machiavellianism</a>
-      <div class="link-blurb">
-    Shows that Machiavellianism destroys trust so completely that civilizations collapse — and explains why people never saw it happening.
-  </div></li>
-    <li><a href="rosh-hashanah-coptic-new-year/">Rosh Hashanah + Coptic New Year = Nun Shin and Tav He</a>
-      <div class="link-blurb">
-      Notes that both days align this year — a symbolic collapse of the 1,000 year deferred gap, and a reminder that God keeps His promises.
-  </div>
-<li><a href="phoenix/">The Finality</a>
-  <div class="link-blurb">
-    The final hub page, built on the Hol/Chol root, with elements placed intentionally for those who recognize their structure.
-  </div>
-</li>
+  </main>
 
-</ul>
+  <footer role="contentinfo" style="margin-top:2rem;color:var(--muted);font-size:0.95rem;">
+    <div>© Raphael E. Asanti</div>
+  </footer>
 </body>
 </html>
