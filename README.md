@@ -111,6 +111,18 @@ https://github.com/RaphaelAsanti/tilt-of-the-earth
 
 ---
 
+## Elijah's Burned Bull
+HTML  
+https://raphaelasanti.github.io/burned-bull-elijah/
+
+PDF  
+https://raphaelasanti.github.io/righteousness/burned-bull-elijah.pdf
+
+Repository  
+https://github.com/RaphaelAsanti/burned-bull-elijah
+
+---
+
 ## xml Sitemap
 HTML  
 https://raphaelasanti.github.io/sitemap.xml
