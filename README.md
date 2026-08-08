@@ -96,6 +96,7 @@ https://raphaelasanti.github.io/the-end-of-time/TheEndOfTime.pdf
 
 Repository  
 https://github.com/RaphaelAsanti/the-end-of-time
+
 ---
 
 ## The Real Reason the Earth Titles
@@ -134,6 +135,6 @@ This work is sustained entirely by voluntary contributions. Thank you for consid
 (If you prefer not to donate, the ebook is available for free — see "Related pages".)
 
 ## Contribute
-- Share the public page on social media to extend its reach: https://raphaelasanti.github.io/woman-in-the-wilderness/  
+- Share the public page on social media to extend its reach: https://raphaelasanti.github.io/
 - Report issues or suggest edits via GitHub issues in this repo. Pull requests welcome for documentation fixes or accessibility improvements.
 
