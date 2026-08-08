@@ -96,8 +96,17 @@ https://raphaelasanti.github.io/the-end-of-time/TheEndOfTime.pdf
 
 Repository  
 https://github.com/RaphaelAsanti/the-end-of-time
-
 ---
+
+## The Real Reason the Earth Titles
+HTML  
+https://raphaelasanti.github.io/tilt-of-the-earth/
+
+PDF  
+https://raphaelasanti.github.io/perils-of-machiavellianism/tilt-of-the-earth.pdf
+
+Repository  
+https://github.com/RaphaelAsanti/tilt-of-the-earth
 
 ---
 
@@ -107,26 +116,24 @@ https://raphaelasanti.github.io/sitemap.xml
 
 ---
 
-### License
-https://github.com/RaphaelAsanti/raphaelasanti.github.io/blob/main/LICENSE
+## How to view
+Open the live site URL above (GitHub Pages) or download the PDF link for offline reading. The site is served via GitHub Pages — no installation required.
 
-### Author
-Raphael E. Asanti  
-July 2026
+## License
+This work is distributed under the license in the repository: [LICENSE](./LICENSE)
 
-### Donate
-This work is sustained entirely by voluntary contributions.
+## Author
+Raphael E. Asanti — July 2026
 
-**Cash App**  
-https://cash.app/$phirunltd
+## Donate
+This work is sustained entirely by voluntary contributions. Thank you for considering support.
 
-**Gumroad (optional donation when downloading)**  
-https://phirun4.gumroad.com/l/zsmzjh
+- Cash App: https://cash.app/$phirunltd  
+- Gumroad (optional donation when downloading): https://phirun4.gumroad.com/l/zsmzjh
 
-### Contribute
-Share the main index on your social media to extend its reach:  
-https://raphaelasanti.github.io/
+(If you prefer not to donate, the ebook is available for free — see "Related pages".)
 
-### Free Ebook
-If you prefer not to donate, the same ebook is available here:  
-https://github.com/raphaelasanti/the-end-of-time/
+## Contribute
+- Share the public page on social media to extend its reach: https://raphaelasanti.github.io/woman-in-the-wilderness/  
+- Report issues or suggest edits via GitHub issues in this repo. Pull requests welcome for documentation fixes or accessibility improvements.
+
