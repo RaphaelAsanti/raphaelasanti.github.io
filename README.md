@@ -116,7 +116,7 @@ HTML
 https://raphaelasanti.github.io/burned-bull-elijah/
 
 PDF  
-https://raphaelasanti.github.io/righteousness/burned-bull-elijah.pdf
+https://raphaelasanti.github.io/burned-bull-elijah/burned-bull-elijah.pdf
 
 Repository  
 https://github.com/RaphaelAsanti/burned-bull-elijah
