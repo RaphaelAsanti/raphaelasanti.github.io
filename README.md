@@ -123,6 +123,27 @@ https://github.com/RaphaelAsanti/burned-bull-elijah
 
 ---
 
+## The Woman in the Wilderness
+HTML  
+https://raphaelasanti.github.io/woman-in-the-wilderness/
+
+PDF  
+https://raphaelasanti.github.io/woman-in-the-wilderness/woman-in-the-wilderness.pdf
+
+Repository  
+https://github.com/RaphaelAsanti/woman-in-the-wilderness
+
+---
+
+## The Finality
+HTML  
+https://raphaelasanti.github.io/phoenix/
+
+Repository  
+https://github.com/RaphaelAsanti/phoenix
+
+---
+
 ## xml Sitemap
 HTML  
 https://raphaelasanti.github.io/sitemap.xml
