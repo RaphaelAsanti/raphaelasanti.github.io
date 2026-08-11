@@ -153,6 +153,14 @@ https://github.com/RaphaelAsanti/phoenix
 
 ---
 
+## Laughter Is Better Than Sex
+HTML  
+https://raphaelasanti.github.io/laughter-is-better-than-sex/
+
+Repository  
+https://github.com/RaphaelAsanti/laughter-is-better-than-sex/
+
+---
 ## xml Sitemap
 HTML  
 https://raphaelasanti.github.io/sitemap.xml
