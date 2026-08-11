@@ -60,6 +60,15 @@ https://github.com/RaphaelAsanti/the-eye-of-the-needle
 
 ---
 
+## Jesus The Samaritan Jew
+HTML  
+https://raphaelasanti.github.io/jesus-the-samaritan-jew/
+
+Repository  
+https://github.com/RaphaelAsanti/jesus-the-samaritan-jew
+
+---
+
 ## The Perils of Machiavellianism
 HTML  
 https://raphaelasanti.github.io/perils-of-machiavellianism/
