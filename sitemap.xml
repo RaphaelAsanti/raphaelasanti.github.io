@@ -50,6 +50,10 @@
   
 
   <!-- Personal Notes -->
+      <url>
+    <loc>https://raphaelasanti.github.io/jesus-the-samaritan-jew/</loc>
+    <priority>0.7</priority>
+  </url>
     <url>
     <loc>https://raphaelasanti.github.io/thamud-and-the-camel-of-god/</loc>
     <priority>0.7</priority>
