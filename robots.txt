@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://raphaelasanti.github.io/sitemap.xml
