@@ -51,6 +51,15 @@ https://github.com/RaphaelAsanti/thamud-and-the-camel-of-god
 
 ---
 
+## The Clenched Fist Trap
+HTML  
+https://raphaelasanti.github.io/the-clenched-fist-trap/
+
+Repository  
+https://github.com/RaphaelAsanti/the-clenched-fist-trap
+
+---
+
 ## The Eye of the Needle: Not a Metaphor
 HTML  
 https://raphaelasanti.github.io/the-eye-of-the-needle/
