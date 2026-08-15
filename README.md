@@ -53,10 +53,10 @@ https://github.com/RaphaelAsanti/thamud-and-the-camel-of-god
 
 ## The Clenched Fist Trap
 HTML  
-https://raphaelasanti.github.io/the-clenched-fist-trap/
+https://raphaelasanti.github.io/clenched-fist-trap/
 
 Repository  
-https://github.com/RaphaelAsanti/the-clenched-fist-trap
+https://github.com/RaphaelAsanti/clenched-fist-trap
 
 ---
 
