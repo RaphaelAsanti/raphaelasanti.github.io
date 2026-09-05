@@ -4,7 +4,7 @@ A concise structural index of all public pages in the ecosystem.
 This page provides direct access to each HTML version, PDF, and repository.
 
 ---
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nd/4.0/)
+![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey.svg)
 [![GitHub Pages](https://img.shields.io/badge/site-GitHub%20Pages-green.svg)](https://raphaelasanti.github.io/)
 
 ---
